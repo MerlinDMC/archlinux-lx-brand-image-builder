@@ -12,4 +12,5 @@ var/log/*.log
 var/log/*/*.log
 var/run/*
 var/tmp/*
+var/lib/pacman/sync/*
 etc/ssh/ssh_host_*
