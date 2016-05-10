@@ -19,13 +19,13 @@ DOCS=
 usage() {
 cat <<EOF
 
-Create an lx brand Archlinux image from a given tar file
+Create an lx brand Arch Linux image from a given tar file
 
 Usage:
   $0 -t <TARBALL> -k <KERNEL> -m <MIN_PLATFORM> -i <IMAGE_NAME> -d <DESC> -u <DOCS>
 
 Example:
-  $0 -t /var/tmp/lx-archlinux-20151004.tar.gz -k 4.2.2 -m 20150316T201553Z -i lx-archlinux-20151004 -d "Archlinux 64-bit lx-brand image." -u https://docs.joyent.com/images/lx-brand-beta
+  $0 -t /var/tmp/lx-archlinux-20151004.tar.gz -k 4.2.2 -m 20150316T201553Z -i lx-archlinux-20151004 -d "Arch Linux 64-bit lx-brand image." -u https://docs.joyent.com/images/lx-brand-beta
 
 OPTIONS:
   -t The full path to the tar archive

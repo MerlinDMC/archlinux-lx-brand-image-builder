@@ -2,7 +2,7 @@
 #
 # Copyright (c) 2015 Joyent Inc., All rights reserved.
 #
-# Install Archlinux into a directory, modify the installation, then tar it up.
+# Install Arch Linux into a directory, modify the installation, then tar it up.
 #
 
 set -euo pipefail
@@ -14,11 +14,11 @@ BUILD_DATE=$(date +%Y%m%d)
 
 usage() {
 cat <<EOF
-Install and modify Archlinux in a given directory in a given directory using a given mirror
+Install and modify Arch Linux in a given directory in a given directory using a given mirror
 Usage:
   $0 -d <INSTALL_DIR> -i <IMAGE_NAME> -p <NAME> -D <DESC> -u <DOCS>
 Example:
-  $0 -d /data/chroot -i lx-archlinux -p "Archlinux LX Brand" -D "Archlinux lx-brand image." -u https://docs.joyent.com/images/lx-brand-beta
+  $0 -d /data/chroot -i lx-archlinux -p "Arch Linux LX Brand" -D "Arch Linux lx-brand image." -u https://docs.joyent.com/images/lx-brand-beta
 OPTIONS:
   -d A path to the install directory
   -i The name of the image. This is used for naming the tarball.
