@@ -1,23 +1,23 @@
-# Archlinux lx-brand Image Builder
+# Arch Linux lx-brand Image Builder
 
-This is a collection of scripts used for creating an LX-brand Archlinux image.
+This is a collection of scripts used for creating an LX-brand Arch Linux image.
 
 ## Requirements
 
 In order to use these scripts you'll need:
 
-- A Archlinux running in a KVM virtual machine or bare metal (required for the `install` script) with git installed. Running `install` in a lx-brand zone is not supported.
+- A Arch Linux running in a KVM virtual machine or bare metal (required for the `install` script) with git installed. Running `install` in a lx-brand zone is not supported.
 - A SmartOS (or SDC headnode) install (required for the `create-lx-image` script)
 
 ## Usage
 
-### Create a Archlinux install tarball via the `install` script
+### Create a Arch Linux install tarball via the `install` script
 
-On a Archlinux machine, do the following:
+On a Arch Linux machine, do the following:
 
 1. Clone this repo to your machine: `git clone https://github.com/MerlinDMC/archlinux-lx-brand-image-builder`
 2. Change to the repo directoru: `cd archlinux-lx-brand-image-builder`
-3. Run `./install -d <chroot> -m <mirror> -i <image name> -p <proper name> -u <image docs>` to install Archlinux to a given directory. This will create a tarball of the installation in your working directory (named `<image name>-$YYMMDD.tar.gz`). See ./install -h for detailed usage.
+3. Run `./install -d <chroot> -m <mirror> -i <image name> -p <proper name> -u <image docs>` to install Arch Linux to a given directory. This will create a tarball of the installation in your working directory (named `<image name>-$YYMMDD.tar.gz`). See ./install -h for detailed usage.
 
 ### Create an lx brand image with the `create-lx-image` script
 
