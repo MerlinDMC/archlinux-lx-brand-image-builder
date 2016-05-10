@@ -45,7 +45,7 @@ do
       exit
       ;;
     d)
-      INSTALL_DIR=${OPTARG%/}
+      INSTALL_DIR=`realpath ${OPTARG%/}`
       ;;
     i)
       IMAGE_NAME=${OPTARG}
