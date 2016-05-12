@@ -6,7 +6,7 @@ This is a collection of scripts used for creating an LX-brand Arch Linux image.
 
 In order to use these scripts you'll need:
 
-- A Arch Linux running in a KVM virtual machine or bare metal (required for the `install` script) with git installed. Running `install` in a lx-brand zone is not supported.
+- Arch Linux running in a KVM virtual machine or bare metal (required for the `install` script) with git installed. Running `install` in a lx-brand zone is not supported.
 - A SmartOS (or SDC headnode) install (required for the `create-lx-image` script)
 
 ## Usage
