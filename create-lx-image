@@ -114,7 +114,7 @@ if [[ -z ${IMAGE_NAME} ]]; then
 fi
 
 if [[ -z ${DESC} ]]; then
-  cho "Error: missing image description (-d) value"
+  echo "Error: missing image description (-d) value"
     exit 1
 fi
 
